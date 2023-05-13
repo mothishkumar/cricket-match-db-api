@@ -1,0 +1,19 @@
+get http://localhost:3000/players/
+
+###
+get http://localhost:3000/players/4/
+
+###
+put http://localhost:3000/players/4/
+
+###
+get http://localhost:3000/matches/3/
+
+###
+get http://localhost:3000/players/4/matches/
+
+###
+get http://localhost:3000/matches/3/players/
+
+###
+get http://localhost:3000/players/1/playerScores
